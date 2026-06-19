@@ -31,52 +31,75 @@
     <text x="271" y="320">›</text><text x="517" y="320">›</text><text x="763" y="320">›</text>
   </g>
 
-  <!-- STRUCTURE -->
+  <!-- STRUCTURE (hierarquia) -->
   <text x="44" y="392" class="m" font-size="16" font-weight="700" letter-spacing="1">ESTRUTURA DO PROJETO</text>
   <rect x="40" y="408" width="1000" height="430" rx="16" fill="#ffffff" stroke="#e2e8f0"/>
-  <g>
-    <!-- rows: marker + path + desc -->
-    <g>
-      <rect x="72" y="452" width="30" height="22" rx="4" fill="#7c3aed"/><rect x="72" y="448" width="13" height="6" rx="2" fill="#7c3aed"/>
-      <text x="118" y="469" class="t mono" font-size="21" font-weight="700">.claude/skills/</text>
-      <text x="372" y="469" class="m" font-size="18">14 skills — /kickoff, /nova-feature, /validar, /metricas…</text>
-    </g>
-    <g transform="translate(0,46)">
-      <rect x="72" y="452" width="30" height="22" rx="4" fill="#3b82f6"/><rect x="72" y="448" width="13" height="6" rx="2" fill="#3b82f6"/>
-      <text x="118" y="469" class="t mono" font-size="21" font-weight="700">.github + scripts/</text>
-      <text x="372" y="469" class="m" font-size="18">CI da esteira: auditoria + eval de fidelidade spec→código</text>
-    </g>
-    <g transform="translate(0,92)">
-      <rect x="72" y="452" width="30" height="22" rx="4" fill="#22c55e"/><rect x="72" y="448" width="13" height="6" rx="2" fill="#22c55e"/>
-      <text x="118" y="469" class="t mono" font-size="21" font-weight="700">docs/product/</text>
-      <text x="372" y="469" class="m" font-size="18">vision · stakeholders · journeys · features · MVP · roadmap</text>
-    </g>
-    <g transform="translate(0,138)">
-      <rect x="72" y="452" width="30" height="22" rx="4" fill="#ec4899"/><rect x="72" y="448" width="13" height="6" rx="2" fill="#ec4899"/>
-      <text x="118" y="469" class="t mono" font-size="21" font-weight="700">docs/architecture/</text>
-      <text x="372" y="469" class="m" font-size="18">overview (5 eixos) · context-map · diagrams · adr</text>
-    </g>
-    <g transform="translate(0,184)">
-      <rect x="72" y="452" width="30" height="22" rx="4" fill="#14b8a6"/><rect x="72" y="448" width="13" height="6" rx="2" fill="#14b8a6"/>
-      <text x="118" y="469" class="t mono" font-size="21" font-weight="700">docs/engineering/</text>
-      <text x="372" y="469" class="m" font-size="18">TESTING · metrics · integrations · agentic-layer</text>
-    </g>
-    <g transform="translate(0,230)">
-      <rect x="72" y="452" width="30" height="22" rx="4" fill="#f97316"/><rect x="72" y="448" width="13" height="6" rx="2" fill="#f97316"/>
-      <text x="118" y="469" class="t mono" font-size="21" font-weight="700">specs/</text>
-      <text x="372" y="469" class="m" font-size="18">feature: spec · design · domain · tasks (+ quick)</text>
-    </g>
-    <g transform="translate(0,276)">
-      <rect x="72" y="452" width="30" height="22" rx="4" fill="#64748b"/><rect x="72" y="448" width="13" height="6" rx="2" fill="#64748b"/>
-      <text x="118" y="469" class="t mono" font-size="21" font-weight="700">src/</text>
-      <text x="372" y="469" class="m" font-size="18">estrutura em camadas (DDD tático)</text>
-    </g>
-    <g transform="translate(0,322)">
-      <rect x="72" y="452" width="30" height="22" rx="4" fill="#0e1430"/><rect x="72" y="448" width="13" height="6" rx="2" fill="#0e1430"/>
-      <text x="118" y="469" class="t mono" font-size="21" font-weight="700">CLAUDE.md</text>
-      <text x="372" y="469" class="m" font-size="18">regras do agente — contexto base (alwaysApply)</text>
-    </g>
+
+  <!-- tree connectors -->
+  <g stroke="#cbd5e1" stroke-width="2" fill="none">
+    <!-- spine nivel 1 -->
+    <path d="M86 460 V788"/>
+    <path d="M86 484 H122"/>
+    <path d="M86 522 H122"/>
+    <path d="M86 560 H122"/>
+    <path d="M86 712 H122"/>
+    <path d="M86 750 H122"/>
+    <path d="M86 788 H122"/>
+    <!-- spine docs/ (nivel 2) -->
+    <path d="M138 574 V674"/>
+    <path d="M138 598 H176"/>
+    <path d="M138 636 H176"/>
+    <path d="M138 674 H176"/>
   </g>
+
+  <!-- root -->
+  <rect x="72" y="435" width="28" height="20" rx="4" fill="#0e1430"/><rect x="72" y="431" width="12" height="5" rx="2" fill="#0e1430"/>
+  <text x="112" y="452" class="t mono" font-size="21" font-weight="700">projeto/</text>
+
+  <!-- nivel 1: .claude/skills/ -->
+  <rect x="124" y="473" width="28" height="20" rx="4" fill="#7c3aed"/><rect x="124" y="469" width="12" height="5" rx="2" fill="#7c3aed"/>
+  <text x="162" y="490" class="t mono" font-size="20" font-weight="700">.claude/skills/</text>
+  <text x="448" y="490" class="m" font-size="17">14 skills — /kickoff, /nova-feature, /validar…</text>
+
+  <!-- nivel 1: .github + scripts/ -->
+  <rect x="124" y="511" width="28" height="20" rx="4" fill="#3b82f6"/><rect x="124" y="507" width="12" height="5" rx="2" fill="#3b82f6"/>
+  <text x="162" y="528" class="t mono" font-size="20" font-weight="700">.github + scripts/</text>
+  <text x="448" y="528" class="m" font-size="17">CI da esteira: auditoria + eval de fidelidade</text>
+
+  <!-- nivel 1: docs/ (pai) -->
+  <rect x="124" y="549" width="28" height="20" rx="4" fill="#0ea5e9"/><rect x="124" y="545" width="12" height="5" rx="2" fill="#0ea5e9"/>
+  <text x="162" y="566" class="t mono" font-size="20" font-weight="700">docs/</text>
+  <text x="448" y="566" class="m" font-size="17">documentação viva, por concern</text>
+
+  <!-- nivel 2: product/ -->
+  <rect x="178" y="587" width="28" height="20" rx="4" fill="#22c55e"/><rect x="178" y="583" width="12" height="5" rx="2" fill="#22c55e"/>
+  <text x="216" y="604" class="t mono" font-size="19" font-weight="700">product/</text>
+  <text x="448" y="604" class="m" font-size="17">vision · journeys · features · MVP · roadmap</text>
+
+  <!-- nivel 2: architecture/ -->
+  <rect x="178" y="625" width="28" height="20" rx="4" fill="#ec4899"/><rect x="178" y="621" width="12" height="5" rx="2" fill="#ec4899"/>
+  <text x="216" y="642" class="t mono" font-size="19" font-weight="700">architecture/</text>
+  <text x="448" y="642" class="m" font-size="17">overview (5 eixos) · context-map · diagrams · adr</text>
+
+  <!-- nivel 2: engineering/ -->
+  <rect x="178" y="663" width="28" height="20" rx="4" fill="#14b8a6"/><rect x="178" y="659" width="12" height="5" rx="2" fill="#14b8a6"/>
+  <text x="216" y="680" class="t mono" font-size="19" font-weight="700">engineering/</text>
+  <text x="448" y="680" class="m" font-size="17">TESTING · metrics · integrations · agentic-layer</text>
+
+  <!-- nivel 1: specs/ -->
+  <rect x="124" y="701" width="28" height="20" rx="4" fill="#f97316"/><rect x="124" y="697" width="12" height="5" rx="2" fill="#f97316"/>
+  <text x="162" y="718" class="t mono" font-size="20" font-weight="700">specs/</text>
+  <text x="448" y="718" class="m" font-size="17">feature: spec · design · domain · tasks (+ quick)</text>
+
+  <!-- nivel 1: src/ -->
+  <rect x="124" y="739" width="28" height="20" rx="4" fill="#64748b"/><rect x="124" y="735" width="12" height="5" rx="2" fill="#64748b"/>
+  <text x="162" y="756" class="t mono" font-size="20" font-weight="700">src/</text>
+  <text x="448" y="756" class="m" font-size="17">estrutura em camadas (DDD tático)</text>
+
+  <!-- nivel 1: CLAUDE.md (arquivo) -->
+  <rect x="126" y="777" width="22" height="24" rx="3" fill="#0e1430"/>
+  <text x="162" y="794" class="t mono" font-size="20" font-weight="700">CLAUDE.md</text>
+  <text x="448" y="794" class="m" font-size="17">regras do agente — contexto base (alwaysApply)</text>
 
   <!-- DIFFERENTIATORS -->
   <text x="44" y="884" class="m" font-size="16" font-weight="700" letter-spacing="1">POR QUE É DIFERENTE</text>
