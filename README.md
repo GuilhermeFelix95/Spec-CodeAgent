@@ -32,7 +32,7 @@ seu-projeto/
 ├── .claude/skills/            # 11 skills (ver abaixo)
 ├── docs/
 │   ├── glossary.md · STATE.md
-│   ├── product/               # vision · mvp-canvas · roadmap
+│   ├── product/               # vision · stakeholders · journeys · features · mvp-canvas · roadmap
 │   ├── architecture/          # overview (5 eixos) · context-map · diagrams · assessment · adr/
 │   └── engineering/           # TESTING · integrations · agentic-layer (+ _templates)
 ├── specs/                     # uma pasta por feature (0001-…) + quick/ + _templates/

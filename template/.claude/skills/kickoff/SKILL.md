@@ -39,15 +39,20 @@ ferramental ainda). **Não pergunte ferramentas aqui.**
 ---
 
 ## Fase 1A — [GREENFIELD] Descoberta (Lean Inception)
-Capture os artefatos da inception (sem rodar o workshop inteiro). Lotes:
+Conduza as atividades da inception em lotes de `AskUserQuestion` e **gere um artefato por pilar**
+(não enfie tudo num doc só — cada pilar tem seu lar):
 
-**Lote A — Visão e problema:** problema central e para quem; categoria + diferencial vs a
-alternativa atual; North Star metric.
-**Lote B — Escopo:** 2-3 coisas que o produto explicitamente NÃO é / NÃO faz.
-**Lote C — MVP:** as 1-3 jornadas ponta a ponta; a hipótese principal e o critério de sucesso;
-funcionalidades candidatas, sequenciadas por valor × esforço.
+1. **Visão & escopo** → `vision.md`: problema e para quem; categoria + diferencial; North Star;
+   2-3 coisas que o produto explicitamente **NÃO é / NÃO faz**.
+2. **Stakeholders** → `stakeholders.md`: quem influencia/é impactado (interesse × influência) e
+   como engajar cada um.
+3. **Jornadas** → `journeys.md`: as 1-3 jornadas ponta a ponta — etapas, dores e oportunidades.
+4. **Funcionalidades** → `features.md`: brainstorm a partir das **jornadas**, classificadas por
+   esforço/valor/confiança/UX e **sequenciadas em ondas** (Onda 1 = MVP).
+5. **MVP** → `mvp-canvas.md`: a Onda 1 + a hipótese principal e o critério de sucesso.
 
-→ Saídas desta fase: `vision.md`, `mvp-canvas.md`.
+→ Saídas: `vision.md` · `stakeholders.md` · `journeys.md` · `features.md` · `mvp-canvas.md`.
+A **Onda 1** de `features.md` alimenta o `roadmap.md` (Fase 5).
 
 ## Fase 1B — [BROWNFIELD] Mapear o estado atual (as-is)
 Execute a skill **`/mapear`** (mesma lógica): leia o código, entreviste as lacunas, faça o gap
@@ -80,6 +85,9 @@ Gere/atualize usando os templates do projeto:
 | Arquivo | Modo | Template |
 |---|---|---|
 | `docs/product/vision.md` | greenfield | `docs/product/_templates/vision.template.md` |
+| `docs/product/stakeholders.md` | greenfield | `docs/product/_templates/stakeholders.template.md` |
+| `docs/product/journeys.md` | greenfield | `docs/product/_templates/journeys.template.md` |
+| `docs/product/features.md` | greenfield | `docs/product/_templates/features.template.md` (classificadas + sequenciadas) |
 | `docs/product/mvp-canvas.md` | greenfield | `docs/product/_templates/mvp-canvas.template.md` |
 | `docs/architecture/assessment.md` | brownfield | `docs/architecture/_templates/assessment.template.md` |
 | `docs/architecture/context-map.md` | ambos | existente (inicial no greenfield; reverse-engineered no brownfield) |
