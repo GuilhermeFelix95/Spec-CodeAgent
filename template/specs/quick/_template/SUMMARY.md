@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Summary — NNN-<slug>
 
 - **Feito:** <o que mudou, em 1-2 linhas>

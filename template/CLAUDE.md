@@ -1,3 +1,7 @@
+---
+load: always   # contexto base — ler em toda sessão
+---
+
 # CLAUDE.md — Convenções para agentes de IA
 
 Este projeto segue **Spec-Driven Development (SDD)**. Leia antes de implementar qualquer coisa.
@@ -47,11 +51,18 @@ interfaces → application → domain ← infrastructure
 - `interfaces/` é a borda (API/CLI/UI).
 
 ## Disciplina de contexto e delegação
-- **Carregue sob demanda:** leia só os docs/arquivos relevantes à task atual — não o repo inteiro.
-  Base: `CLAUDE.md`, a `spec.md` ativa e `docs/engineering/TESTING.md`; o resto, conforme a necessidade.
+Cada doc declara sua política de carregamento no **frontmatter `load:`**:
+- `load: always` — **contexto base**, leia em toda sessão.
+- `load: on-demand` — leia **só quando a tarefa exigir**.
+
+**Base (sempre carregado):** este `CLAUDE.md` · `docs/STATE.md` · `docs/product/vision.md` ·
+`docs/product/roadmap.md` · a `spec.md` da feature ativa. Todo o resto é **on-demand**
+(TESTING, glossary, context-map, ADRs, integrations, agentic-layer, demais specs/designs).
+
+- **Carregue sob demanda:** não leia o repo inteiro — puxe o on-demand conforme a task atual.
 - **Delegue para manter o contexto enxuto:** pesquisa e tasks paralelas (`[P]`) vão para
-  subagentes (ver `docs/engineering/_templates/subagent.template.md`), que recebem só a task + spec + TESTING
-  e devolvem um report-back estruturado. Reserve a maior parte da janela para o trabalho, não para histórico.
+  subagentes (ver `docs/engineering/_templates/subagent.template.md`), que recebem só a task +
+  spec + TESTING e devolvem um report-back estruturado. Reserve a janela para o trabalho.
 
 ## Divergência da spec (SPEC_DEVIATION)
 Se durante a implementação você precisar fazer diferente do que a `spec.md` diz:

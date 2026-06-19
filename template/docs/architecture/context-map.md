@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Context Map
 
 > Visão DDD estratégica: os bounded contexts do sistema e como se relacionam.

@@ -1,3 +1,7 @@
+---
+load: always   # contexto base — ler em toda sessão
+---
+
 # Spec — <nome da feature>
 
 > **Fonte da verdade.** Status: rascunho | em review | aprovado | implementado

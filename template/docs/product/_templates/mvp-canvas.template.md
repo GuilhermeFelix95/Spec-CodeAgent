@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # MVP Canvas — <nome do projeto>
 
 > Lean Inception (Paulo Caroli). O MVP é a menor coisa que gera aprendizado validado,

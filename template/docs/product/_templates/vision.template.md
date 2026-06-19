@@ -1,3 +1,7 @@
+---
+load: always   # contexto base — ler em toda sessão
+---
+
 # Visão do Produto — <nome do projeto>
 
 > Gerado no kickoff (Lean Inception). Documento vivo: revisar a cada pivô relevante.

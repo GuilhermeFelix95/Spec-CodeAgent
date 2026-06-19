@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Technical Design Doc — <nome da feature>
 
 > **Tier:** arquitetural · **Status:** rascunho | em review | aprovado

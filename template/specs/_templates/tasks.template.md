@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Tasks — <nome da feature>
 
 > Decomposição da implementação. Cada task **mapeia para um ou mais `AC-N`** (rastreabilidade

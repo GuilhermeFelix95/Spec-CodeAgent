@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # ADR-0001: Registrar decisões de arquitetura como ADRs
 
 - **Status:** aceito

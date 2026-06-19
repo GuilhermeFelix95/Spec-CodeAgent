@@ -1,3 +1,7 @@
+---
+load: always   # contexto base — ler em toda sessão
+---
+
 # Roadmap — <nome do projeto>
 
 > Plano incremental para implementar **com o time**. Gerado no kickoff.

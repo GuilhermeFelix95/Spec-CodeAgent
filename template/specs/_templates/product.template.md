@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Product — <nome da feature>
 
 > **Tier:** pequeno | arquitetural · **Status:** rascunho | em review | aprovado · **Dono:** <nome>

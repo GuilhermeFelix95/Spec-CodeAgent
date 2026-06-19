@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # ADR-NNNN: <título da decisão>
 
 - **Status:** proposto | aceito | substituído por ADR-XXXX

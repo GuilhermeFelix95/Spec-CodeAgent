@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # src/ — Estrutura em camadas (DDD tático)
 
 Agnóstico de linguagem. Crie subpastas/módulos equivalentes na sua stack, mas

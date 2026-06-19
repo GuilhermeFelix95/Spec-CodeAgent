@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # TESTING — Como verificar o projeto
 
 > **Fonte única dos comandos de gate** e das convenções de teste. É o que o **DoD**, a **CI** e os

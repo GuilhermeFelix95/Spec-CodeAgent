@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Boilerplate SDD — Spec-Driven Development
 
 Padrão de projeto para times de alta performance. Combina **Technical Design Docs (RFC)**,

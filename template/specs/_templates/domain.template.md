@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Domain Model (DDD) — <nome da feature>
 
 > Responde: qual a **linguagem** e o **modelo** do negócio.

@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Assessment (as-is) — <nome do projeto>
 
 > Mapa do estado atual de um projeto **já em andamento** (brownfield), gerado no kickoff.

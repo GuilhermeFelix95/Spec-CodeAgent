@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Glossário — Linguagem Ubíqua
 
 > A fonte única do vocabulário do sistema. O mesmo termo aparece aqui, na spec e no código.

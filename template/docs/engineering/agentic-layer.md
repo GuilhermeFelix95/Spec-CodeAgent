@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Camada agêntica do projeto
 
 Os mesmos insumos do kickoff (stack, ferramentas, processo, domínio) afinam a camada que faz

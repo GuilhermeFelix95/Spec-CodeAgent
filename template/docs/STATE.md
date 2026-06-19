@@ -1,3 +1,7 @@
+---
+load: always   # contexto base — ler em toda sessão
+---
+
 # STATE — Memória viva do projeto
 
 > Memória de trabalho **entre sessões** (humanos e agentes). É **volátil**: atualizada o tempo

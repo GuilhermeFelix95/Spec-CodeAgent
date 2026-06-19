@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Quick Task — NNN-<slug>
 
 > **Trilha leve** (tier Trivial: ≤3 arquivos, sem decisão). Deixa rastro sem a esteira completa.

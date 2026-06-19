@@ -1,3 +1,7 @@
+---
+load: on-demand   # ler quando a tarefa exigir
+---
+
 # Integrações e MCPs — <nome do projeto>
 
 > Ferramentas que o time já usa e os **MCP servers** propostos para conectá-las ao Claude Code,
