@@ -1,5 +1,7 @@
 ---
-load: always   # contexto base — ler em toda sessão
+name: CLAUDE
+description: Convenções do agente para a esteira SDD. Sempre ativo.
+alwaysApply: true
 ---
 
 # CLAUDE.md — Convenções para agentes de IA
@@ -51,13 +53,13 @@ interfaces → application → domain ← infrastructure
 - `interfaces/` é a borda (API/CLI/UI).
 
 ## Disciplina de contexto e delegação
-Cada doc declara sua política de carregamento no **frontmatter `load:`**:
-- `load: always` — **contexto base**, leia em toda sessão.
-- `load: on-demand` — leia **só quando a tarefa exigir**.
+Cada doc declara no frontmatter sua política de carregamento (padrão estilo Cursor rules):
+- `alwaysApply: true` — **contexto base**, leia em toda sessão.
+- `alwaysApply: false` — **sob demanda**; o campo `description` diz **quando** puxá-lo.
 
-**Base (sempre carregado):** este `CLAUDE.md` · `docs/STATE.md` · `docs/product/vision.md` ·
-`docs/product/roadmap.md` · a `spec.md` da feature ativa. Todo o resto é **on-demand**
-(TESTING, glossary, context-map, ADRs, integrations, agentic-layer, demais specs/designs).
+**Base (`alwaysApply: true`):** este `CLAUDE.md` · `docs/STATE.md` · `docs/product/vision.md` ·
+`docs/product/roadmap.md` · a `spec.md` da feature ativa. Todo o resto é sob demanda — puxe
+pelo `description` quando a tarefa exigir (TESTING, glossary, context-map, ADRs, integrations…).
 
 - **Carregue sob demanda:** não leia o repo inteiro — puxe o on-demand conforme a task atual.
 - **Delegue para manter o contexto enxuto:** pesquisa e tasks paralelas (`[P]`) vão para

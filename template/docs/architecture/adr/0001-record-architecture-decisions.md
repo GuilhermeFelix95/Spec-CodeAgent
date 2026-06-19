@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: ADR-0001
+description: Decisão de usar ADRs. Puxe ao registrar ou rever decisões.
+alwaysApply: false
 ---
 
 # ADR-0001: Registrar decisões de arquitetura como ADRs

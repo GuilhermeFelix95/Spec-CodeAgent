@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: adr-template
+description: Template de ADR. Use ao registrar uma decisão difícil de reverter.
+alwaysApply: false
 ---
 
 # ADR-NNNN: <título da decisão>

@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: mvp-canvas
+description: Canvas do MVP. Puxe na descoberta e priorização do MVP.
+alwaysApply: false
 ---
 
 # MVP Canvas — <nome do projeto>

@@ -1,5 +1,7 @@
 ---
-load: always   # contexto base — ler em toda sessão
+name: STATE
+description: Memória de trabalho volátil — onde paramos, próximo passo, bloqueios.
+alwaysApply: true
 ---
 
 # STATE — Memória viva do projeto

@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: domain
+description: Modelo DDD da feature. Puxe ao modelar agregados e linguagem.
+alwaysApply: false
 ---
 
 # Domain Model (DDD) — <nome da feature>

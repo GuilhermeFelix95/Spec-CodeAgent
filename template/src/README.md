@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: src
+description: Regra de camadas DDD. Puxe ao estruturar ou implementar código.
+alwaysApply: false
 ---
 
 # src/ — Estrutura em camadas (DDD tático)

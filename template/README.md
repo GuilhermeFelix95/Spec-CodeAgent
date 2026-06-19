@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: README
+description: Manual da esteira SDD. Consulte para entender fluxo e tiers.
+alwaysApply: false
 ---
 
 # Boilerplate SDD — Spec-Driven Development

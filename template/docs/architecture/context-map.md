@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: context-map
+description: Bounded contexts e relações. Puxe ao modelar ou cruzar contextos.
+alwaysApply: false
 ---
 
 # Context Map

@@ -1,5 +1,7 @@
 ---
-load: always   # contexto base — ler em toda sessão
+name: vision
+description: Visão do produto — problema, personas, North Star.
+alwaysApply: true
 ---
 
 # Visão do Produto — <nome do projeto>

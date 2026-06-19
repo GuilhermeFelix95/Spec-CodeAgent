@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: quick-summary
+description: Resumo de uma quick task concluída.
+alwaysApply: false
 ---
 
 # Summary — NNN-<slug>

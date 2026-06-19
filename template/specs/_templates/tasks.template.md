@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: tasks
+description: Decomposição e gates da feature. Puxe ao implementar.
+alwaysApply: false
 ---
 
 # Tasks — <nome da feature>

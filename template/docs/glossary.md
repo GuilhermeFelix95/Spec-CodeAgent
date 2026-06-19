@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: glossary
+description: Linguagem ubíqua. Puxe ao nomear, modelar domínio ou escrever specs.
+alwaysApply: false
 ---
 
 # Glossário — Linguagem Ubíqua

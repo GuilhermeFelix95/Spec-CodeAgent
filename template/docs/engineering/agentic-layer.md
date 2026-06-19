@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: agentic-layer
+description: Mapa de rules/agents/skills/workflows. Puxe ao evoluir a camada agêntica.
+alwaysApply: false
 ---
 
 # Camada agêntica do projeto

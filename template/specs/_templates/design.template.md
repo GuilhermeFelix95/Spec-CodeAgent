@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: design
+description: Technical Design Doc (5 eixos). Puxe ao desenhar feature arquitetural.
+alwaysApply: false
 ---
 
 # Technical Design Doc — <nome da feature>

@@ -1,5 +1,7 @@
 ---
-load: always   # contexto base — ler em toda sessão
+name: roadmap
+description: Prioridades atuais em horizontes Now/Next/Later.
+alwaysApply: true
 ---
 
 # Roadmap — <nome do projeto>

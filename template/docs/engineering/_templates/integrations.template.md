@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: integrations
+description: Ferramentas do time e MCPs. Puxe ao integrar Jira/Confluence/cloud.
+alwaysApply: false
 ---
 
 # Integrações e MCPs — <nome do projeto>

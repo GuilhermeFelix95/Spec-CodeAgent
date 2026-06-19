@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: product
+description: PRD-lite da feature (por quê e para quem). Puxe ao abrir feature arquitetural.
+alwaysApply: false
 ---
 
 # Product — <nome da feature>

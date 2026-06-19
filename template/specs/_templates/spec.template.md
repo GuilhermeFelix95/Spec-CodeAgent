@@ -1,5 +1,7 @@
 ---
-load: always   # contexto base — ler em toda sessão
+name: spec
+description: Contrato da feature (critérios de aceite). Base enquanto a feature está ativa.
+alwaysApply: true
 ---
 
 # Spec — <nome da feature>

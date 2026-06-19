@@ -1,5 +1,7 @@
 ---
-load: on-demand   # ler quando a tarefa exigir
+name: TESTING
+description: Comandos de gate e convenções de teste. Puxe ao codar, validar ou montar CI.
+alwaysApply: false
 ---
 
 # TESTING — Como verificar o projeto
