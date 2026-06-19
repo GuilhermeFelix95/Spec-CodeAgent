@@ -60,6 +60,12 @@ seu-projeto/
 | `/evals` | mede fidelidade spec→código (AC cobertos por task/teste, SPEC_DEVIATION) |
 | `/handoff` | pausa/retoma a sessão via `docs/STATE.md` |
 
+## Exemplo completo
+
+[`examples/pulse/`](examples/pulse/) é um produto fictício levado pela esteira **ponta a ponta** —
+discovery (vision/features) → spec (AC) → tasks → código → testes — com **audit e eval verdes** e
+os testes passando. A prova de que o fluxo fecha, não só artefatos soltos.
+
 ## Uso
 
 ```bash
