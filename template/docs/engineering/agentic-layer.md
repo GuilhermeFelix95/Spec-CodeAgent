@@ -47,7 +47,8 @@ As 8 skills do boilerplate, uma responsabilidade cada:
 - *Tools-aware* (geradas pela `/camada-agentica` se o MCP existir): **`/spec-to-jira`**, **`/publicar-confluence`**.
 
 ## 5. Workflows — automação da esteira
-- **Hooks** (`settings.json`): rodar lint/teste no `Stop`; alertar ao editar fora de escopo.
+- **Hooks** (`settings.json`): `SessionStart` → `.claude/hooks/load-context.mjs` injeta o contexto
+  base (`alwaysApply: true`); rodar lint/teste no `Stop`; alertar ao editar fora de escopo.
 - **CI/CD** (`/setup-ci`): falhar PR que altera código **sem spec aprovada**; rodar os testes de
   aceite derivados da `spec.md`. É aqui que o gate SDD vira pipeline.
 - **Gate de PR/MR** (`/revisar-pr`): conformidade de processo na revisão, complementando o

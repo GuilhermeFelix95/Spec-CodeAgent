@@ -9,12 +9,13 @@ alwaysApply: true
 Este projeto segue **Spec-Driven Development (SDD)**. Leia antes de implementar qualquer coisa.
 
 ## Início de sessão — carregue o contexto base
-> Esta diretiva é o que **efetiva** o `alwaysApply: true` no Claude Code (que não honra a flag
-> sozinho). Como este `CLAUDE.md` é sempre carregado, ele é quem dispara o carregamento da base.
+> Um hook **`SessionStart`** (`.claude/settings.json` → `.claude/hooks/load-context.mjs`) injeta
+> este contexto base **automaticamente** (garantia determinística). Se o hook estiver desativado,
+> esta diretiva é o fallback — e como o `CLAUDE.md` é sempre carregado, ela cobre o caso.
 
-**Antes da primeira tarefa, leia (se existirem) os docs `alwaysApply: true`:**
+**Garanta o contexto base antes da primeira tarefa — os docs `alwaysApply: true`:**
 `docs/STATE.md` · `docs/product/vision.md` · `docs/product/roadmap.md` · e a `spec.md` da
-feature ativa em `specs/`. Esse é o contexto base.
+feature ativa em `specs/`.
 
 Todos os outros docs são `alwaysApply: false` — **não os leia agora**. Puxe cada um **sob demanda**,
 quando a tarefa exigir, guiado pelo `description` no frontmatter dele.
