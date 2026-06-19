@@ -29,12 +29,12 @@ Encadeadas: **Lean Inception** (descobrir) → **DDD** (modelar) → **TDD** (de
 seu-projeto/
 ├── CLAUDE.md                  # convenções que o agente segue (verificação de conhecimento, camadas, DoD)
 ├── README.md                  # o manual da esteira SDD
-├── .claude/skills/            # 11 skills (ver abaixo)
+├── .claude/skills/            # 12 skills (ver abaixo)
 ├── docs/
 │   ├── glossary.md · STATE.md
 │   ├── product/               # vision · stakeholders · journeys · features · mvp-canvas · roadmap
 │   ├── architecture/          # overview (5 eixos) · context-map · diagrams · assessment · adr/
-│   └── engineering/           # TESTING · integrations · agentic-layer (+ _templates)
+│   └── engineering/           # TESTING · metrics · integrations · agentic-layer (+ _templates)
 ├── specs/                     # uma pasta por feature (0001-…) + quick/ + _templates/
 └── src/                       # estrutura em camadas DDD
 ```
@@ -53,6 +53,7 @@ seu-projeto/
 | `/validar` | UAT: gates, AC→teste, SPEC_DEVIATION, DoD |
 | `/revisar-pr` | gate de conformidade SDD no PR/MR |
 | `/setup-ci` | pipeline CI/CD que materializa os gates |
+| `/metricas` | Lead Time, Throughput e maturidade de Continuous Delivery/Deployment |
 | `/handoff` | pausa/retoma a sessão via `docs/STATE.md` |
 
 ## Uso

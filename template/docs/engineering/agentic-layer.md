@@ -43,6 +43,7 @@ As 8 skills do boilerplate, uma responsabilidade cada:
 | **`/validar`** | UAT local: gates, AC→teste, SPEC_DEVIATION, DoD |
 | **`/revisar-pr`** | gate de conformidade SDD no PR/MR (posta via MCP) |
 | **`/setup-ci`** | pipeline CI/CD que materializa os gates SDD |
+| **`/metricas`** | Lead Time · Throughput · maturidade de CD → `metrics.md` |
 | **`/handoff`** | pausa/retoma via `docs/STATE.md` (continuidade) |
 
 - *Tools-aware* (geradas pela `/camada-agentica` se o MCP existir): **`/spec-to-jira`**, **`/publicar-confluence`**.
