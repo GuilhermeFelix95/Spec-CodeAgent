@@ -12,6 +12,17 @@ npx @igoruehara/spec-driven
 npx @igoruehara/spec-driven meu-projeto
 ```
 
+## Em que se baseia
+
+| Prática | Sentido aqui | O que aporta à esteira |
+|---|---|---|
+| **Lean Inception** | workshop de descoberta (Paulo Caroli) | visão, personas e MVP — *o que construir primeiro* |
+| **DDD** | Domain-Driven Design (Eric Evans) | linguagem ubíqua e bounded contexts — *o modelo do negócio* |
+| **TDD** | Technical Design Doc / RFC | design antes de codar, com alternativas — *como no nível de sistema* |
+| **SDD** | Spec-Driven Development | a spec é a fonte da verdade — *o contrato que dirige a implementação* |
+
+Encadeadas: **Lean Inception** (descobrir) → **DDD** (modelar) → **TDD** (desenhar) → **SDD** (especificar e implementar).
+
 ## O que ele instala
 
 ```
@@ -72,8 +83,11 @@ npx @igoruehara/spec-driven . --yes        # sem confirmação (útil em automa�
 ## Depois de scaffoldar
 
 1. `git init` (se ainda não for um repo).
-2. No Claude Code: `/integracoes` (se já conhece o ferramental) → `/kickoff`.
-3. Comece a primeira feature com `/nova-feature`.
+2. No Claude Code, **aprove o hook de contexto** na 1ª sessão — um `SessionStart`
+   (`.claude/settings.json`) que carrega o contexto base (STATE, vision, roadmap) automaticamente.
+   Requer Node na máquina.
+3. Rode `/integracoes` (se já conhece o ferramental) → `/kickoff`.
+4. Comece a primeira feature com `/nova-feature`.
 
 ## Licença
 
