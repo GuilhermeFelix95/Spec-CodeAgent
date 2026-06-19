@@ -46,6 +46,7 @@ seu-projeto/
 | `/kickoff` | orquestra a constituição do projeto (greenfield ou brownfield) |
 | `/integracoes` | ferramentas do time + MCPs (read-first, trava de conta/workspace) |
 | `/mapear` | mapeia um codebase existente → `assessment.md` |
+| `/diagramar` | arquitetura de alto nível em Mermaid → `diagrams.md` |
 | `/roadmap` | constrói/revisa o roadmap com o time |
 | `/camada-agentica` | gera rules, subagents, skills e workflows/CI |
 | `/nova-feature` | abre uma feature no padrão SDD (tier → spec → tasks) |

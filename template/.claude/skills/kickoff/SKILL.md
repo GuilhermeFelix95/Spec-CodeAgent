@@ -89,6 +89,7 @@ Gere/atualize usando os templates do projeto:
 | `docs/product/roadmap.md` | ambos | `docs/product/_templates/roadmap.template.md` |
 
 > `docs/engineering/integrations.md` e `.mcp.json` são gerados pela skill `/integracoes`, não aqui.
+> Após o `context-map`, ofereça rodar **`/diagramar`** para os diagramas de arquitetura (Mermaid).
 
 Regras:
 - **ADRs:** numere após o 0001. Greenfield: decisões novas. Brownfield: retroativos (status

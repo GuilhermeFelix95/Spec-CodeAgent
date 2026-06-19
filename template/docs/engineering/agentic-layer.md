@@ -35,6 +35,7 @@ As 8 skills do boilerplate, uma responsabilidade cada:
 |---|---|
 | **`/kickoff`** | orquestra a constituição (descoberta + 5 eixos + geração) |
 | **`/mapear`** | brownfield as-is → `assessment.md` (re-execução independente) |
+| **`/diagramar`** | arquitetura de alto nível em Mermaid → `diagrams.md` |
 | **`/roadmap`** | constrói/revisa o roadmap com o time |
 | **`/camada-agentica`** | propõe/gera rules, subagents, skills, workflows/CI |
 | **`/integracoes`** | ferramentas do time + MCPs (ortogonal ao kickoff) |

@@ -28,5 +28,6 @@ alwaysApply: false
 |------------|------------|---------------------|---------|
 | <A>        | <B>        | Anti-Corruption Layer | <protege o modelo de B> |
 
-## Diagrama de contexto (C4 nível 1)
-<Cole/linke o diagrama de contexto do sistema: atores externos + sistema + sistemas vizinhos.>
+## Diagramas
+Os diagramas de arquitetura de alto nível (contexto C4, containers, mapa de contextos) ficam em
+[`diagrams.md`](./diagrams.md) — gere/atualize com a skill `/diagramar`.
