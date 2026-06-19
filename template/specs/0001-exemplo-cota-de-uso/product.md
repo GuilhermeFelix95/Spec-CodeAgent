@@ -1,3 +1,9 @@
+---
+name: product
+description: PRD-lite da feature (por quê e para quem). Puxe ao abrir feature arquitetural.
+alwaysApply: false
+---
+
 # Product — Cota de uso por organização
 
 > **Tier:** arquitetural · **Status:** aprovado · **Dono:** Igor

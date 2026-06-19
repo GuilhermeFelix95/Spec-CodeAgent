@@ -1,3 +1,9 @@
+---
+name: design
+description: Technical Design Doc (5 eixos). Puxe ao desenhar feature arquitetural.
+alwaysApply: false
+---
+
 # Technical Design Doc — Cota de uso por organização
 
 > **Tier:** arquitetural · **Status:** aprovado · **Autor:** Igor · **Data:** 2026-06-18

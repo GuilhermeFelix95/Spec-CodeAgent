@@ -1,9 +1,3 @@
-# Como criar uma skill de projeto
-
-Uma skill vive em `.claude/skills/<nome>/SKILL.md` e é acionada por `/<nome>`. Copie a
-estrutura abaixo para esse caminho (este arquivo é só referência — não é carregado como skill).
-
-```markdown
 ---
 name: <nome-da-skill>
 description: <quando usar, em terceira pessoa, com gatilhos claros. Ex.: "Use para abrir uma nova feature no padrão SDD, escolhendo o tier e copiando os templates." Acione com /<nome>.>
@@ -23,7 +17,7 @@ description: <quando usar, em terceira pessoa, com gatilhos claros. Ex.: "Use pa
 ## Regras
 - Confirme antes de ações outward-facing (publicar, criar issue, configurar MCP).
 - Siga a esteira do `README.md` e as convenções do `CLAUDE.md`.
-```
+- Skills *tools-aware* (dependem de MCP) checam `mcp__<servidor>__*` e degradam com elegância se não houver.
 
-> Skills *tools-aware* (que dependem de um MCP, ex. `/spec-to-jira`) devem checar se o servidor
-> está disponível na sessão (`mcp__<servidor>__*`) e degradar com elegância se não estiver.
+<!-- Template em formato de skill (dialeto do alvo: name + description, sem alwaysApply).
+     Copie para .claude/skills/<nome>/SKILL.md. Aqui em _templates/ não é carregado como skill. -->

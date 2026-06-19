@@ -1,3 +1,9 @@
+---
+name: spec
+description: Contrato da feature (critérios de aceite). Base enquanto a feature está ativa.
+alwaysApply: true
+---
+
 # Spec — Cota de uso por organização
 
 > **Fonte da verdade.** Status: aprovado.

@@ -61,6 +61,10 @@ Cada doc declara no frontmatter sua política de carregamento (padrão estilo Cu
 `docs/product/roadmap.md` · a `spec.md` da feature ativa. Todo o resto é sob demanda — puxe
 pelo `description` quando a tarefa exigir (TESTING, glossary, context-map, ADRs, integrations…).
 
+> **Dois dialetos de frontmatter:** os **docs da esteira** usam `name`+`description`+`alwaysApply`;
+> as **skills** (`.claude/skills/*/SKILL.md`) e os **templates de skill/subagente** usam o dialeto
+> do alvo (`name`+`description`, sem `alwaysApply`) — porque são copiados para virar skills/agentes.
+
 - **Carregue sob demanda:** não leia o repo inteiro — puxe o on-demand conforme a task atual.
 - **Delegue para manter o contexto enxuto:** pesquisa e tasks paralelas (`[P]`) vão para
   subagentes (ver `docs/engineering/_templates/subagent.template.md`), que recebem só a task +
