@@ -83,6 +83,7 @@ Gere/atualize usando os templates do projeto:
 | `docs/product/mvp-canvas.md` | greenfield | `docs/product/_templates/mvp-canvas.template.md` |
 | `docs/architecture/assessment.md` | brownfield | `docs/architecture/_templates/assessment.template.md` |
 | `docs/architecture/context-map.md` | ambos | existente (inicial no greenfield; reverse-engineered no brownfield) |
+| `docs/architecture/overview.md` | ambos | existente — consolide os **5 eixos** + segurança + operacional, com links para ADRs/context-map/diagrams/TESTING |
 | `docs/glossary.md` | ambos | existente (semeie os termos centrais) |
 | `CLAUDE.md` | ambos | existente (preencha stack, comandos, quality gates, observabilidade) |
 | `docs/architecture/adr/NNNN-*.md` | ambos | `docs/architecture/adr/_template.md` (um por decisão estrutural; retroativos no brownfield) |

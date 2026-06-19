@@ -29,11 +29,11 @@ Encadeadas: **Lean Inception** (descobrir) → **DDD** (modelar) → **TDD** (de
 seu-projeto/
 ├── CLAUDE.md                  # convenções que o agente segue (verificação de conhecimento, camadas, DoD)
 ├── README.md                  # o manual da esteira SDD
-├── .claude/skills/            # 10 skills (ver abaixo)
+├── .claude/skills/            # 11 skills (ver abaixo)
 ├── docs/
 │   ├── glossary.md · STATE.md
 │   ├── product/               # vision · mvp-canvas · roadmap
-│   ├── architecture/          # context-map · assessment · adr/
+│   ├── architecture/          # overview (5 eixos) · context-map · diagrams · assessment · adr/
 │   └── engineering/           # TESTING · integrations · agentic-layer (+ _templates)
 ├── specs/                     # uma pasta por feature (0001-…) + quick/ + _templates/
 └── src/                       # estrutura em camadas DDD
