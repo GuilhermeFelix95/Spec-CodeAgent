@@ -12,6 +12,12 @@ alwaysApply: true
 Cada organizaÃ§Ã£o tem uma cota de requisiÃ§Ãµes por janela de tempo. Ao estourar, a API
 responde 429 com headers de cota atÃ© a janela reiniciar.
 
+## Plano de entrega incremental
+1. Validar e modelar `Quota`, `Window` e `UsoCount`.
+2. Implementar o agregado e a regra de excedente.
+3. Integrar o contador e o middleware de resposta.
+4. Fechar o fail-open e a observabilidade.
+
 ## CritÃ©rios de aceite
 
 ### AC-1: requisiÃ§Ã£o dentro da cota Ã© aceita
